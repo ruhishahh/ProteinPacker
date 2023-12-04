@@ -1,0 +1,55 @@
+* {
+    font-family: 'Garamond', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#topbar {
+    background-color: #154f30;
+    overflow: hidden;
+}
+
+#header-logo {
+    background-color: #154f30;
+    color: #fff;
+    padding: 0.1px;
+    margin: 0;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+}
+
+#header-logo img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#topbar a, .welcome-text {
+    font-weight: bold;
+}
+
+#topbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#topbar a:hover {
+    background-color: #A8D38D;
+    color: black;
+}
+
+.welcome-text {
+    float: right;
+    padding: 14px 16px;
+    color: white;
+}
